@@ -1,0 +1,58 @@
+.box {
+  width: 960px;
+  margin-top: 50px;
+}
+
+.box1:nth-child(odd) {
+  background-color: #dcdcdc;
+  padding: 20px;
+}
+
+.box1:nth-child(even) {
+  background-color: white;
+  padding: 20px;
+}
+
+.squre {
+  width: 960px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.squre1 {
+  background-color: yellow;
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.squre1:nth-child(1) {
+  background-color: orange;
+}
+
+.squre1:nth-child(5) {
+  background-color: orange;
+}
+
+.squre1:nth-child(9) {
+  background-color: orange;
+}
+
+.squre1:nth-child(3n) {
+  margin-right: 0;
+}
+
+.squre1:nth-child(7) {
+  margin-bottom: 0;
+}
+
+.squre1:nth-child(8) {
+  margin-bottom: 0;
+}
+
+.squre1:nth-child(9) {
+  margin-bottom: 0;
+}
